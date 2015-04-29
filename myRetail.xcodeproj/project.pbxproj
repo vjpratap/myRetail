@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4D81C71AEDFAC900BBDDB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4D81C61AEDFAC900BBDDB0 /* Default-568h@2x.png */; };
 		EE9B14531AE8DB9D00209577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B14521AE8DB9D00209577 /* main.m */; };
 		EE9B14561AE8DB9D00209577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B14551AE8DB9D00209577 /* AppDelegate.m */; };
 		EE9B14591AE8DB9D00209577 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B14581AE8DB9D00209577 /* RootViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4D81C61AEDFAC900BBDDB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EE9B144D1AE8DB9D00209577 /* myRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9B14511AE8DB9D00209577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9B14521AE8DB9D00209577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		EE9B14441AE8DB9D00209577 = {
 			isa = PBXGroup;
 			children = (
+				EE4D81C61AEDFAC900BBDDB0 /* Default-568h@2x.png */,
 				EE9B144F1AE8DB9D00209577 /* myRetail */,
 				EE9B146F1AE8DB9D00209577 /* myRetailTests */,
 				EE9B144E1AE8DB9D00209577 /* Products */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9B14621AE8DB9D00209577 /* Main.storyboard in Resources */,
+				EE4D81C71AEDFAC900BBDDB0 /* Default-568h@2x.png in Resources */,
 				EE9B14671AE8DB9D00209577 /* LaunchScreen.xib in Resources */,
 				EE9B14641AE8DB9D00209577 /* Images.xcassets in Resources */,
 			);
@@ -424,6 +428,7 @@
 				EE9B14781AE8DB9D00209577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9B14791AE8DB9D00209577 /* Build configuration list for PBXNativeTarget "myRetailTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				EE9B147B1AE8DB9D00209577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

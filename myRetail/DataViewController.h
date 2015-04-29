@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DataViewController : UIViewController
+@interface DataViewController : UIViewController <UITableViewDataSource,
+UITableViewDelegate>
+{
+    IBOutlet UITableView *showCategories;
+    NSMutableArray *category;
+}
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
